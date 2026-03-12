@@ -470,42 +470,42 @@
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                             <li class="nav-item">
-                                <a class="nav-link active" href="home.html">Home</a>
+                                <a class="nav-link active" href="/home">Home</a>
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="testpreperation.html" data-bs-toggle="dropdown">
+                                <a class="nav-link dropdown-toggle" href="/testprep" data-bs-toggle="dropdown">
                                     Test Preparation
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="testpreperation.html">IELTS</a></li>
-                                    <li><a class="dropdown-item" href="testpreperation.html">PTE</a></li>
-                                    <li><a class="dropdown-item" href="testpreperation.html">TOEFL</a></li>
+                                    <li><a class="dropdown-item" href="/testprep">IELTS</a></li>
+                                    <li><a class="dropdown-item" href="/testprep">PTE</a></li>
+                                    <li><a class="dropdown-item" href="/testprep">TOEFL</a></li>
                                 </ul>
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="studyabroad.html" data-bs-toggle="dropdown">
+                                <a class="nav-link dropdown-toggle" href="/studyabroad" data-bs-toggle="dropdown">
                                     Study Abroad
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="studyabroad.html">Study in Australia</a></li>
-                                    <li><a class="dropdown-item" href="studyabroad.html">Study in Canada</a></li>
-                                    <li><a class="dropdown-item" href="studyabroad.html">Study in London</a></li>
+                                    <li><a class="dropdown-item" href="/studyabroad">Study in Australia</a></li>
+                                    <li><a class="dropdown-item" href="/studyabroad">Study in Canada</a></li>
+                                    <li><a class="dropdown-item" href="/studyabroad">Study in London</a></li>
                                 </ul>
                             </li>
 
-                            <li class="nav-item"><a class="nav-link" href="university.html">University</a></li>
-                            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/university">University</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/gallerys">Gallery</a></li>
                             
-                            <li class="nav-item"><a class="nav-link" href="Blog.html">Blogs</a></li>
-                            <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
-                            <li class="nav-item"><a class="nav-link" href="review.html">Review</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/blogs">Blogs</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/aboutus">About Us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/review">Review</a></li>
                             
 
                         </ul>
 
-                        <a href="contact.html"><button class="contact-btn">Contact Us</button></a>
+                       <a href="/contact"><button class="contact-btn">Contact Us</button></a>
                     </div>
                 </div>
             </nav>

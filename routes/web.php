@@ -11,7 +11,7 @@ Route::get('/aboutus', function () {
 Route::get('/home', function () {
     return view('home.index');
 });
-Route::get('/blog', function () {
+Route::get('/blogs', function () {
     return view('blog.index');
 });
 Route::get('/review', function () {
@@ -25,4 +25,10 @@ Route::get('/testprep', function () {
 });
 Route::get('/university', function () {
     return view('university.index');
+});
+Route::get('/gallerys', function () {
+    return view('gallery.index');
+});
+Route::get('/contact', function () {
+    return view('contact.index');
 });
