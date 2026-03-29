@@ -32,3 +32,6 @@ Route::get('/gallerys', function () {
 Route::get('/contact', function () {
     return view('contact.index');
 });
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
