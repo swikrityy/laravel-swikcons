@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\NewController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -35,3 +36,8 @@ Route::get('/contact', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
+Route::get('/dash', function () {
+    return view('dash');
+});
+Route::get('/display',[NewController::class,'display'])->name('display');
+Route::get('/blogs', [NewController::class,'blogs'])->name('blogs');

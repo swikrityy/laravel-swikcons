@@ -54,14 +54,14 @@
                             <li class="nav-item"><a class="nav-link" href="/university">University</a></li>
                             <li class="nav-item"><a class="nav-link" href="/gallerys">Gallerys</a></li>
                             
-                            <li class="nav-item"><a class="nav-link" href="/blogs">Blogs</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ route('blogs') }}">Blogs</a></li>
                             <li class="nav-item"><a class="nav-link" href="/aboutus">About Us</a></li>
                             <li class="nav-item"><a class="nav-link" href="/review">Review</a></li>
                             
 
                         </ul>
 
-                       <a href="/contact"><button class="contact-btn">Contact Us</button></a>
+                       <a href="{{ route('display') }}"><button class="contact-btn">Contact Us</button></a>
                     </div>
                 </div>
             </nav>
