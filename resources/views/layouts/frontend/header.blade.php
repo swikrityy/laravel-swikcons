@@ -26,7 +26,7 @@
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                             <li class="nav-item">
-                                <a class="nav-link active" href="/home">Home</a>
+                                <a class="nav-link active" href="{{ route('home') }}">Home</a>
                             </li>
 
                             <li class="nav-item dropdown">
@@ -41,13 +41,13 @@
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="/studyabroad" data-bs-toggle="dropdown">
+                                <a class="nav-link dropdown-toggle" href="{{ route('Studyabroad') }}" data-bs-toggle="dropdown">
                                     Study Abroad
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="/studyabroad">Study in Australia</a></li>
-                                    <li><a class="dropdown-item" href="/studyabroad">Study in Canada</a></li>
-                                    <li><a class="dropdown-item" href="/studyabroad">Study in London</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('Studyabroad') }}">Study in Australia</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('Studyabroad') }}">Study in Canada</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('Studyabroad') }}">Study in London</a></li>
                                 </ul>
                             </li>
 
