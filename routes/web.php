@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CrudController;
 use App\Http\Controllers\NewController;
 use Illuminate\Support\Facades\Route;
 
@@ -43,3 +44,4 @@ Route::get('/display',[NewController::class,'display'])->name('display');
 Route::get('/blogs', [NewController::class,'blogs'])->name('blogs');
 Route::get('/home',[NewController::class,'home'])->name('home');
 Route::get('/Studyabroad',[NewController::class,'Studyabroad'])->name('Studyabroad');
+Route::resource('blog', CrudController::class);

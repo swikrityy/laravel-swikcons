@@ -13,15 +13,16 @@ return new class extends Migration
     {
         Schema::create('testimonials', function (Blueprint $table) {
             $table->id();
-            $table ->string('name');
+            $table->string('name');
             $table->longText('description');
             $table->string('image');
             $table->string('location');
             $table->timestamps();
-            $table->string('name')->nullable();
-            $table->longText('description')->nullable();
-            $table->string('image')->nullable();
-            $table->string('location')->nullable();
+            // // $table->string('name')->nullable();
+            // $table->longText('description')->default('lorem ');
+            // $table->string('image')->nullable();
+            // $table->string('location')->nullable();
+
         });
     }
 
