@@ -176,89 +176,17 @@
 
 <div class="container">
 
-```
-<!-- Sidebar -->
-<div class="sidebar">
-    <h2>My Admin</h2>
-    <ul>
-        <li>Dashboard</li>
-        <li>Users</li>
-        <li>Analytics</li>
-        <li>Reports</li>
-        <li>Settings</li>
-    </ul>
-</div>
+@include('layouts.admin.sidebar')
 
 <!-- Main -->
 <div class="main">
 
-    <!-- Navbar -->
-    <div class="navbar">
-        <h1>Dashboard</h1>
-        <div class="profile">Admin</div>
-    </div>
+    @include('layouts.admin.header')
+    
 
-    <!-- Content -->
-    <div class="content">
-
-        <!-- Cards -->
-        <div class="cards">
-            <div class="card">
-                <h3>Total Users</h3>
-                <h2>1,250</h2>
-            </div>
-
-            <div class="card">
-                <h3>Revenue</h3>
-                <h2>$8,400</h2>
-            </div>
-
-            <div class="card">
-                <h3>Orders</h3>
-                <h2>320</h2>
-            </div>
-
-            <div class="card">
-                <h3>Growth</h3>
-                <h2>12%</h2>
-            </div>
-        </div>
-
-        <!-- Table -->
-        <div class="table-container">
-            <h3 style="margin-bottom:15px;">Recent Users</h3>
-
-            <table>
-                <tr>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Status</th>
-                </tr>
-
-                @foreach([
-                    ['name'=>'Ram','email'=>'ram@email.com','status'=>'Active'],
-                    ['name'=>'Sita','email'=>'sita@email.com','status'=>'Inactive'],
-                    ['name'=>'Hari','email'=>'hari@email.com','status'=>'Active']
-                ] as $user)
-
-                <tr>
-                    <td>{{ $user['name'] }}</td>
-                    <td>{{ $user['email'] }}</td>
-                    <td>
-                        <span class="status {{ strtolower($user['status']) }}">
-                            {{ $user['status'] }}
-                        </span>
-                    </td>
-                </tr>
-
-                @endforeach
-
-            </table>
-        </div>
-
-    </div>
-
-</div>
+    @yield('content')
+    
+    
 ```
 
 </div>

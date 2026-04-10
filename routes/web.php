@@ -40,8 +40,10 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/dash', function () {
 //     return view('dash');
 // });
+Route::get('/',[NewController::class,'home']);
 Route::get('/display',[NewController::class,'display'])->name('display');
 Route::get('/blogs', [NewController::class,'blogs'])->name('blogs');
 Route::get('/home',[NewController::class,'home'])->name('home');
 Route::get('/Studyabroad',[NewController::class,'Studyabroad'])->name('Studyabroad');
 Route::resource('blog', CrudController::class);
+Route::get('/admin/dashboard',[NewController::class,'dashboard']);

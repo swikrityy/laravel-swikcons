@@ -19,5 +19,9 @@ class NewController extends Controller
      public function StudyAbroad(){
         return view ('Studyabroad.index');
     }
-    
+
+    public function dashboard(){
+        return view ('admin.dashboard');
+    }
+
 }
